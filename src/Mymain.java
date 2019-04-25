@@ -10,7 +10,7 @@ public class Mymain {
 
 			public static void main(String[] args) {
 				// TODO Auto-generated method stub
-		/*Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("pleaase enter a phone number in the specified order : id, areacode,number,countycode");
 				int id1 = sc.nextInt();
 				String areacode = sc.nextLine();
@@ -30,7 +30,7 @@ public class Mymain {
 		
 	Address addr = new Address ( id2,  zip,  country, state, city, line1, line2);
 				
-	/*System.out.println("please enter employe's first and lastname");
+	System.out.println("please enter employe's first and lastname");
 	int firstid =sc.nextInt();
 	String firstname = sc.nextLine();
 	String lastname = sc.nextLine();
@@ -59,8 +59,8 @@ ArrayList <Employee>emplist = new ArrayList<Employee>();
 			HRService h1 = new HRService();
 			h1.addEmployee(emp);
 			h1.addEmployee(emp1);
-			h1.search(10);*/
-Employee emp = new Employee(10,"ska","ksjs");
+			h1.search(10);
+/*Employee emp = new Employee(10,"ska","ksjs");
 Employee emp1 = new Employee(11,"ska","ksjs");
 Employee emp2 = new Employee(12,"ska","ksjs");
 			
@@ -68,7 +68,7 @@ HRService h1 = new HRService();
 h1.addEmployee(emp);
 h1.addEmployee(emp1);
 h1.addEmployee(emp2);
-h1.removeEmployee(10);
+h1.removeEmployee(10);*/
 
 			
 			}
